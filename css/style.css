@@ -1,0 +1,66 @@
+body {
+  font-family: "PTSansRegular", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  -webkit-font-smoothing: antialised;
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 35px;
+  min-width: 1200px;
+}
+
+body .top-line {
+  font-size: 30px;
+  font-family: "JournalSansBold";
+  overflow: hidden;
+}
+
+body .top-line .left-title {
+  float: left;
+}
+
+body .top-line .right-title {
+  float: right;
+}
+
+body h1 {
+  font-family: "JournalSansBold";
+  font-size: 70px;
+  line-height: 85px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 45px;
+  margin-top: 140px;
+  margin-bottom: 0;
+}
+
+body .descr {
+  font-size: 46px;
+  font-family: "PTSansRegular";
+  margin: 30px 0;
+}
+
+body .contacts {
+  font-family: "PTSansItalic";
+  margin-bottom: 0;
+}
+
+body .phone {
+  font-size: 48px;
+  font-family: "PTSansBold";
+  margin-top: 0;
+}
+
+body .email {
+  font-size: 30px;
+  font-family: "PTSansBold";
+  margin-top: 0;
+}
