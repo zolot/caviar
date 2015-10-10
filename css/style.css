@@ -59,8 +59,14 @@ body .phone {
   margin-top: 0;
 }
 
-body .email {
+body a.email {
   font-size: 30px;
   font-family: "PTSansBold";
   margin-top: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+body a.email:hover {
+  text-decoration: underline;
 }
