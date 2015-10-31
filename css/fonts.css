@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: "JournalSansRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/JournalSansRegular/JournalSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/JournalSansRegular/JournalSansRegular.woff") format("woff"), url("../fonts/JournalSansRegular/JournalSansRegular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "PTSansBold";
   font-style: normal;
   font-weight: bold;
