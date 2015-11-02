@@ -5,19 +5,22 @@ $(document).ready(function() {
 		captions: true
 	});
 
+    $('.popup').magnificPopup();
+
 	function check_appear(els) {
 		if (els.is(':appeared')) {
+
 			els.each(function(index) {
 				setTimeout(function(el) {
-					$(el).animate({opacity: 1}, 200);
+					$(el).animate({opacity: 1}, 1000);
 				}, 500*index, this);
 			});
 		}
 	}
 
 	$(document).scroll(function() {
-		check_appear($('#place-of-unloading .city'));
-	})
+		check_appear($('#place-of-unloading .fadein'));
+	});
 
 
 
@@ -46,14 +49,14 @@ $(document).ready(function() {
 	});
 
 	$('#place-of-catch .kamchatka').click(function() {
-		$('.sahalin-map, .kamchatka').fadeOut(400).promise().done(function() {
-		$('.kamchatka-map, .sahalin').fadeIn(400)
+		$('.sahalin-map, .kamchatka, .sahalin-title').fadeOut(400).promise().done(function() {
+		$('.kamchatka-map, .sahalin, .kamchatka-title').fadeIn(400)
 		});
 	});
 
 	$('#place-of-catch .sahalin').click(function() {
-		$('.kamchatka-map, .sahalin').fadeOut(400).promise().done(function() {
-		$('.sahalin-map, .kamchatka').fadeIn(400)
+		$('.kamchatka-map, .sahalin, .kamchatka-title').fadeOut(400).promise().done(function() {
+		$('.sahalin-map, .kamchatka, .sahalin-title').fadeIn(400)
 		});
 	});
 	
@@ -84,4 +87,58 @@ $(document).ready(function() {
         event.preventDefault();
         $('body,html').animate({scrollTop: 0}, 1700);
     })
+
+    $('.ephone').mask('+7 (999) 999-99-99');
+
+    $('form').submit(function(e) {
+            e.preventDefault();
+            var $form = $(this);
+            if (check_form($form)) {
+                return false;
+            }
+
+            $.ajax({
+                url: $form.attr('action'), 
+                type: $form.attr('method'),
+                data: $form.serialize(),
+
+                success: function(data) {
+                    var url = 'thank.html';
+                    window.location = url;
+
+                    $form.find("input[type=text], input[type=email], textarea").val(""); // очищаем форму
+                },
+
+                error: function(data) {
+                    alert('Извините, данные не были переданы');
+                }
+            });
+        });
+
+        function check_form(form){
+            var error = false;
+            $(form).find('input, textarea').each(function(){
+                if ($(this).val().length <= 1) {
+                    $(this).addClass('error');
+                    error = true;
+                } else {
+                    $(this).removeClass('error');
+                }
+            });
+
+            var name = $(form).find('[name=name]');
+            var phone = $(form).find("[name=phone]");
+            var email = $(form).find("[name=email]");
+
+            if (name.val().length < 3) {
+                name.addClass('error');
+                error = true;
+            }
+            if (phone.val().length < 11) {
+                phone.addClass('error');
+                error = true;
+            }
+            return error;
+        }
+
 });

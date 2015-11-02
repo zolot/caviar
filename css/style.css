@@ -20,9 +20,14 @@ h3 {
   font-size: 48px;
 }
 
+a {
+  outline: none;
+}
+
 form {
   width: 497px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 form .inputs-wrap {
@@ -50,18 +55,19 @@ form button {
   width: 250px;
   height: 85px;
   display: inline-block;
+  margin-top: 25px;
   float: right;
   color: #fff;
   font-size: 30px;
   font-family: "JournalSansBold";
-  background-color: #ec361e;
+  background-color: #46d301;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
 
 form button:hover {
-  background-color: #b40607;
+  background-color: #39a901;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -143,7 +149,8 @@ header .main-title .arrov {
 header .header-bottom {
   background-image: url("../img/header-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
+  background-attachment: fixed;
   box-sizing: border-box;
   min-width: 1280px;
   padding: 110px 0 380px;
@@ -495,7 +502,7 @@ header .price {
   color: #acacac;
   font-size: 48px;
   font-family: "PTSansItalic";
-  width: 800px;
+  width: 750px;
   margin: 0 auto;
   background: url("../img/open-quotes.png") no-repeat 0 25%, url("../img/close-quotes.png") no-repeat 100% 25%;
 }
@@ -578,7 +585,7 @@ header .price {
 }
 
 #caviars .weighted-info .right-wrap h4, #caviars .jars-info .right-wrap h4 {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "JournalSansBold";
   text-transform: uppercase;
   margin: 30px 0 30px;
@@ -604,20 +611,20 @@ header .price {
 }
 
 #caviars .weighted-info .right-wrap .to-other, #caviars .jars-info .right-wrap .to-other {
-  font-size: 18px;
+  font-size: 36px;
   cursor: pointer;
-  margin-top: 170px;
+  margin-top: 230px;
 }
 
 #caviars .weighted-info .right-wrap .to-other .plus, #caviars .jars-info .right-wrap .to-other .plus {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #8c8c8c;
   display: inline-block;
   text-align: center;
   color: #8c8c8c;
-  font-size: 35px;
-  line-height: 25px;
+  font-size: 45px;
+  line-height: 40px;
 }
 
 #caviars .weighted-info .right-wrap .to-other span, #caviars .jars-info .right-wrap .to-other span {
@@ -671,13 +678,14 @@ header .price {
 
 #place-of-catch .place-info h4 {
   color: #1c2423;
-  font-size: 30px;
-  font-family: "JournalSansBold";
+  font-size: 45px;
+  margin: 30px 0;
   text-decoration: underline;
+  font-family: "JournalSansBold";
 }
 
 #place-of-catch .place-info p {
-  font-size: 18px;
+  font-size: 21px;
   line-height: 23px;
   color: #1c2423;
   margin: 0 0 50px;
@@ -691,14 +699,14 @@ header .price {
 }
 
 #place-of-catch .place-info .place .plus {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #8c8c8c;
   display: inline-block;
   text-align: center;
   color: #8c8c8c;
-  font-size: 35px;
-  line-height: 25px;
+  font-size: 45px;
+  line-height: 40px;
 }
 
 #place-of-catch .place-info .place span {
@@ -707,7 +715,7 @@ header .price {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 12px 10px;
-  font-size: 18px;
+  font-size: 36px;
 }
 
 #place-of-catch .place-info .place span:hover {
@@ -715,6 +723,10 @@ header .price {
 }
 
 #place-of-catch .place-info .sahalin {
+  display: none;
+}
+
+#place-of-catch .place-info .kamchatka-title {
   display: none;
 }
 
@@ -780,24 +792,24 @@ header .price {
   display: inline-block;
 }
 
-#production-scheme .schemes-wrap .stage .descr:hover {
+#production-scheme .schemes-wrap .stage:hover .descr {
   background-color: #ec361e;
   color: #fff;
   width: 280px;
   height: 250px;
 }
 
-#production-scheme .schemes-wrap .stage .descr:hover h4 {
+#production-scheme .schemes-wrap .stage:hover h4 {
   font-size: 30px;
   color: #fff;
 }
 
-#production-scheme .schemes-wrap .stage .descr:hover .plus {
+#production-scheme .schemes-wrap .stage:hover .plus {
   opacity: 0;
   display: none;
 }
 
-#production-scheme .schemes-wrap .stage .descr:hover p {
+#production-scheme .schemes-wrap .stage:hover p {
   opacity: 1;
 }
 
@@ -856,13 +868,13 @@ header .price {
   right: 0;
 }
 
-#production-scheme .schemes-wrap .stage-3 .descr h4 {
+#production-scheme .schemes-wrap .stage-3 h4 {
   margin-top: 70px;
   color: #767676;
   transition: all 0.5s;
 }
 
-#production-scheme .schemes-wrap .stage-3 .descr .plus {
+#production-scheme .schemes-wrap .stage-3 h4 .plus {
   color: #767676;
   border: 2px solid #767676;
   transition: all 0.5s;
@@ -885,7 +897,7 @@ header .price {
   transition: all 0.5s;
 }
 
-#production-scheme .schemes-wrap .stage-4 .descr:hover h4 {
+#production-scheme .schemes-wrap .stage-4:hover .descr h4 {
   margin-top: 70px;
 }
 
@@ -906,18 +918,18 @@ header .price {
   right: 0;
 }
 
-#production-scheme .schemes-wrap .stage-5 .descr h4 {
+#production-scheme .schemes-wrap .stage-5 h4 {
   margin-top: 35px;
   transition: all 0.5s;
   color: #767676;
 }
 
-#production-scheme .schemes-wrap .stage-5 .descr .plus {
+#production-scheme .schemes-wrap .stage-5 h4 .plus {
   color: #767676;
   border: 2px solid #767676;
 }
 
-#production-scheme .schemes-wrap .stage-5 .descr:hover h4 {
+#production-scheme .schemes-wrap .stage-5:hover .descr h4 {
   margin-top: 70px;
 }
 
@@ -932,7 +944,7 @@ header .price {
 
 #certificates .container {
   width: 1270px;
-  margin: -420px auto 0;
+  margin: -419px auto 0;
 }
 
 #certificates .container h3 {
@@ -1073,17 +1085,17 @@ header .price {
   background: url("../img/scheme-works-bg.jpg");
   background-position: center;
   background-size: cover;
-  padding: 70px 0 120px;
+  padding: 40px 0 90px;
 }
 
 #scheme-works h3 {
-  margin-bottom: 110px;
+  margin-bottom: 90px;
 }
 
 #scheme-works .container {
   width: 1270px;
-  padding-right: 20px;
-  margin: 0 auto;
+  padding-right: 54px;
+  margin: 0 auto 70px;
   text-align: right;
 }
 
@@ -1403,11 +1415,14 @@ header .price {
   height: auto;
 }
 
+#place-of-unloading .map .fadein {
+  opacity: 0;
+}
+
 #place-of-unloading .map .city {
   position: absolute;
   font-size: 13px;
   color: #000;
-  opacity: 0;
 }
 
 #place-of-unloading .map .city p {
@@ -1866,6 +1881,41 @@ footer .container .logo {
   font-size: 48px;
   font-family: "JournalSansBold";
   margin: 35px 0 80px;
+}
+
+#thank {
+  background-color: #FFF;
+  padding: 40px;
+  width: 650px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#thank p {
+  margin: 0 auto;
+  color: #272727;
+}
+
+#thank h3 {
+  color: #272727;
+}
+
+form input.error {
+  border: 1px solid red;
+}
+
+#form {
+  background-color: #FFF;
+  padding: 70px;
+}
+
+#form input {
+  border: 1px solid #c6c6c6;
+}
+
+.hidden {
+  display: none;
 }
 
 .clear {

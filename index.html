@@ -4,12 +4,13 @@
 
 	<meta charset="utf-8" />
 
-	<title>Икра оптом с доставкой  по России и СНГ</title>
+	<title>Икра оптом с доставкой по России и СНГ</title>
 	<meta content="" name="description" />
 	<link rel="shortcut icon" href="favicon.png" />
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link href="libs/bxslider/jquery.bxslider.css" rel="stylesheet" />
+	<link href="libs/magnific/magnific-popup.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/style.css" />
     
@@ -22,26 +23,27 @@
 				<img src="img/logo.png" alt="Айсберг8" class="logo">
 				<div class="left-wrap">
 					<span class="contact">+7 (913) 963 - 86 - 99</span>
-					<a href="#">Обратный звонок</a>
+					<a href="#form" class="popup">Обратный звонок</a>
 				</div>
 				<div class="right-wrap">
 					<span class="contact"> Москва, ул Зелинского, д 22</span>
-					<span class="contact">sobaka@info.com</span>
+					<span class="contact">kondratev@iceberg8.ru</span>
 				</div>
 			</div>
 		</div>
 		<div class="main-title">
-			<h1>Икра высокого качества по низким ценам</h1>
+			<h1>Икра высокого качества от производителя</h1>
 			<img src="img/arrov.png" class="arrov">
 		</div>
 		<div class="header-bottom">
-			<h2>Икра оптом с доставкой <br> по россии и снг</h2>
+			<h2>Икра оптом с доставкой <br> по России и СНГ</h2>
 			<img src="img/diamond-icon.png">
 			<p class="price">- от 1950р/кг -</p>
-			<form>
+			<form action="contacts.php" method="post">
 				<div class="inputs-wrap">
-					<input type="text" placeholder='Имя'>
-					<input type="text" placeholder='E-mail'>
+					<input type="text" placeholder='Имя' name="name" required>
+					<input type="email" placeholder='E-mail' name="email" required>
+					<input type="text" placeholder='Телефон' name="phone" class="ephone" required>
 				</div>
 				<button>Заказать</button>
 			</form>
@@ -187,17 +189,18 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-			<form>
+			<form action="contacts.php" method="post">
 				<div class="inputs-wrap">
-					<input type="text" placeholder='Имя'>
-					<input type="text" placeholder='E-mail'>
+					<input type="text" placeholder='Имя' name="name" required>
+					<input type="email" placeholder='E-mail' name="email" required>
+					<input type="text" placeholder='Телефон' name="phone" class="ephone" required>
 				</div>
 			<button>Заказать</button>
 			</form>
 		</div>
 		
 		<h3>АЙСБЕРГ 8</h3>
-		<p class="obtain">Нашу икру мы добываем<br> в лучших водах сахалина<br> и там же пакуем</p>	
+		<p class="obtain">Мы ценим<br> скорость и качество <br>превыше всего</p>	
 	</section>
 
 	<section id="place-of-catch">
@@ -208,7 +211,8 @@
 			</div>
 			<div class="place-info">
 				<h3>Место вылова</h3>
-				<h4>Здесь такое альфа-место</h4>
+				<h4 class="sahalin-title">Сахалин</h4>
+				<h4 class="kamchatka-title">Камчатка</h4>
 				<p>Воды Сахалина и Камчатки славятся своим богатством по всему миру.
 Именно здесь мы вылавливаем рыбу, чтобы доставить до Вас только самую лучшую икру.
 </p>
@@ -356,6 +360,14 @@
 				</div>				
 			</div>
 		</div>
+		<form action="contacts.php" method="post">
+			<div class="inputs-wrap">
+				<input type="text" placeholder='Имя' name="name" required>
+				<input type="email" placeholder='E-mail' name="email" required>
+				<input type="text" placeholder='Телефон' name="phone" required>
+			</div>
+			<button>Заказать</button>
+		</form>
 	</section>
 
 	<section id="with-whom-work">
@@ -396,37 +408,43 @@
 		<h3>Места выгрузки</h3>
 		<div class="map">
 			<img src="img/map.png" class="map-img">
-			<div class="city moskva"><img src="img/pin.png"><p>Москва</p></div>
-			<div class="city surgut"><img src="img/pin.png"><p>Сургут</p></div>
-			<div class="city krasnoyarsk"><img src="img/pin.png"><p>Красноярск</p></div>
-			<div class="city ulan-ude"><img src="img/pin.png"><p>Улан-Уде</p></div>
-			<div class="city tomsk"><p>Томск</p><img src="img/pin.png"></div>
-			<div class="city salehard"><p>Салехард</p><img src="img/pin.png"></div>
-			<div class="city astana"><img src="img/pin.png"><p>Астана</p></div>
-			<div class="city sankt-peterburg"><img src="img/pin.png"><p>Санкт-Петербург</p></div>
-			<div class="city minsk"><img src="img/pin.png"><p>Минск</p></div>
-			<div class="city petropavlovsk"><img src="img/pin.png"><p>Петропавловск - Камчатский</p></div>
-			<div class="city irkutsk"><p>Иркутск</p><img src="img/pin.png"></div>
-			<div class="city ekaterinburg"><p>Екатеринбург</p><img src="img/pin.png"></div>
-			<div class="city rostov-na-donu"><img src="img/pin.png"><p>Ростов-на-Дону</p></div>
-			<div class="city murmansk"><img src="img/pin.png"><p>Мурманск</p></div>
-			<div class="city kaliningrad"><p>Калиниград</p><img src="img/pin.png"></div>
-			<div class="city simferopol"><p>Симферополь</p><img src="img/pin.png"></div>
-			<div class="city krasnodar"><img src="img/pin.png"><p>Краснодар</p></div>
-			<div class="city aktau"><img src="img/pin.png"><p>Актау</p></div>
-			<div class="city bishkok"><img src="img/pin.png"><p>Бишкок</p></div>
-			<div class="city almaty"><p>Алматы</p><img src="img/pin.png"></div>
-			<div class="city karaganda"><img src="img/pin.png"><p>Караганда</p></div>
-			<div class="city pavlodar"><img src="img/pin.png"><p>Павлодар</p></div>
-			<div class="city orenburg"><img src="img/pin.png"><p>Оренбург</p></div>
-			<div class="city ufa"><img src="img/pin.png"><p>Уфа</p></div>
-			<div class="city chelyabinsk"><img src="img/pin.png"><p>Челябинск</p></div>
-			<div class="city tyumen"><img src="img/pin.png"><p>Тюмень</p></div>
-			<div class="city omsk"><img src="img/pin.png"><p>Омск</p></div>
-			<div class="city kemerovo"><img src="img/pin.png"><p>Кемерово</p></div>
-			<div class="city novuy-urengoy"><img src="img/pin.png"><p>Новый Уренгой</p></div>
-			<div class="city novosibirsk"><p>Новосибирск</p><img src="img/pin.png"></div>
-			<div class="city krasnoyarsk-2"><img src="img/pin.png"><p>Красноярск</p></div>
+			<div class="fadein" data-appear-top-offset="400">
+				<div class="city moskva"><img src="img/pin.png"><p>Москва</p></div>
+			</div>
+			<div class="fadein">
+				<div class="city surgut"><img src="img/pin.png"><p>Сургут</p></div>
+				<div class="city krasnoyarsk"><img src="img/pin.png"><p>Красноярск</p></div>
+				<div class="city ulan-ude"><img src="img/pin.png"><p>Улан-Уде</p></div>
+				<div class="city tomsk"><p>Томск</p><img src="img/pin.png"></div>
+				<div class="city salehard"><p>Салехард</p><img src="img/pin.png"></div>
+				<div class="city astana"><img src="img/pin.png"><p>Астана</p></div>
+				<div class="city sankt-peterburg"><img src="img/pin.png"><p>Санкт-Петербург</p></div>
+			</div>
+			<div class="fadein">
+				<div class="city minsk"><img src="img/pin.png"><p>Минск</p></div>
+				<div class="city petropavlovsk"><img src="img/pin.png"><p>Петропавловск - Камчатский</p></div>
+				<div class="city irkutsk"><p>Иркутск</p><img src="img/pin.png"></div>
+				<div class="city ekaterinburg"><p>Екатеринбург</p><img src="img/pin.png"></div>
+				<div class="city rostov-na-donu"><img src="img/pin.png"><p>Ростов-на-Дону</p></div>
+				<div class="city murmansk"><img src="img/pin.png"><p>Мурманск</p></div>
+				<div class="city kaliningrad"><p>Калиниград</p><img src="img/pin.png"></div>
+				<div class="city simferopol"><p>Симферополь</p><img src="img/pin.png"></div>
+				<div class="city krasnodar"><img src="img/pin.png"><p>Краснодар</p></div>
+				<div class="city aktau"><img src="img/pin.png"><p>Актау</p></div>
+				<div class="city bishkok"><img src="img/pin.png"><p>Бишкок</p></div>
+				<div class="city almaty"><p>Алматы</p><img src="img/pin.png"></div>
+				<div class="city karaganda"><img src="img/pin.png"><p>Караганда</p></div>
+				<div class="city pavlodar"><img src="img/pin.png"><p>Павлодар</p></div>
+				<div class="city orenburg"><img src="img/pin.png"><p>Оренбург</p></div>
+				<div class="city ufa"><img src="img/pin.png"><p>Уфа</p></div>
+				<div class="city chelyabinsk"><img src="img/pin.png"><p>Челябинск</p></div>
+				<div class="city tyumen"><img src="img/pin.png"><p>Тюмень</p></div>
+				<div class="city omsk"><img src="img/pin.png"><p>Омск</p></div>
+				<div class="city kemerovo"><img src="img/pin.png"><p>Кемерово</p></div>
+				<div class="city novuy-urengoy"><img src="img/pin.png"><p>Новый Уренгой</p></div>
+				<div class="city novosibirsk"><p>Новосибирск</p><img src="img/pin.png"></div>
+				<div class="city krasnoyarsk-2"><img src="img/pin.png"><p>Красноярск</p></div>
+			</div>
 		</div>
 	</section>
 
@@ -453,7 +471,7 @@
 			<h3>Инстаграм</h3>
 			<div class="wrap">
 				<span>1,4 к. подписчиков</span>
-				<a href="#">Подписаться</a>
+				<a href="https://instagram.com/iceberg_8_official/" target="_blank">Подписаться</a>
 				<span>5 к. лайков</span>
 			</div>				
 		</div>
@@ -461,10 +479,11 @@
 
 	<section id="form-section">
 		<h3>Икра высокого качества <br>по низким ценам</h3>
-		<form>
+		<form action="contacts.php" method="post">
 			<div class="inputs-wrap">
-				<input type="text" placeholder='Имя'>
-				<input type="text" placeholder='E-mail'>
+				<input type="text" placeholder='Имя' name="name" required>
+				<input type="email" placeholder='E-mail' name="email" required>
+				<input type="text" placeholder='Телефон' name="phone" class="ephone" required>
 			</div>
 			<button>Заказать</button>
 		</form>
@@ -480,18 +499,29 @@
 		<div class="right-col">
 			<div class="container">
 				<a href="#header"><img src="img/up-arrov.png" class="up-arrov"></a>
-				<a href="#">Обратный звонок</a>	
+				<a href="#form" class="popup">Обратный звонок</a>	
 				<div>
 					<div class="phones-wrap">
 						<p>+7 (812) 837-49-58</p>
 						<p>+7 (812) 837-49-58</p>
 					</div>
-					<p class="e-mail">Aisberg@mail.ru</p>
+					<p class="e-mail">kondratev@iceberg8.ru</p>
 					<div class="clear"></div>
 				</div>
 			</div>
 		</div>
 	</footer>
+
+	<div class="hidden">
+		<form action="contacts.php" method="post" id="form">
+			<div class="inputs-wrap">
+				<input type="text" placeholder='Имя' name="name" required>
+				<input type="email" placeholder='E-mail' name="email" required>
+				<input type="text" placeholder='Телефон' name="phone" class="ephone" required>
+			</div>
+			<button>Заказать</button>
+		</form>
+	</div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -502,6 +532,8 @@
 	
     <script src="libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="libs/bxslider/jquery.bxslider.min.js"></script>
+	<script src="libs/magnific/jquery.magnific-popup.min.js"></script>
+	<script src="libs/jquery.maskedinput.min.js"></script>
 	<script src="libs/jquery.appear.js"></script>
     <script src="js/common.js"></script>
 	
