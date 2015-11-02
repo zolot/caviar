@@ -80,7 +80,7 @@ header {
 }
 
 header .top-line {
-  font-size: 20px;
+  font-size: 19px;
   font-family: "JournalSansRegular";
   position: fixed;
   width: 100%;
@@ -119,7 +119,7 @@ header .top-line .container .left-wrap a {
 }
 
 header .top-line .container .contact, header .top-line .container a {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 header .top-line .container .right-wrap {
@@ -1095,6 +1095,7 @@ header .price {
 #scheme-works .container {
   width: 1270px;
   padding-right: 54px;
+  box-sizing: border-box;
   margin: 0 auto 70px;
   text-align: right;
 }
