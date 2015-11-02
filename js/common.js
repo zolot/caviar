@@ -1,4 +1,23 @@
+function wResize() {
+    var window_width = $(window).width();
+    if (window_width > 1280) {
+
+        $("header .header-bottom").css("background-attachment", "fixed");
+    } else {
+        $("header .header-bottom").css("background-attachment", "");
+    }
+};
+
+
+$(document).load(function() {
+    wResize();
+});
+
 $(document).ready(function() {
+    wResize();
+    $(window).resize(function() {
+        wResize();
+    });
 
 	$('.bxslider').bxSlider({
 		mode: 'fade',
