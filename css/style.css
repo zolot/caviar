@@ -1723,7 +1723,11 @@ header .price {
   display: inline-block;
   margin: 25px 45px;
   vertical-align: middle;
-  height: 70px;
+  height: 80px;
+}
+
+#clients-brand img:first-child {
+  height: 60px;
 }
 
 #instagram {
