@@ -1,5 +1,5 @@
 body {
-  font-family: "PTSansRegular", sans-serif;
+  font-family: "RobotoThin", sans-serif;
   font-weight: normal;
   font-size: 24px;
   position: relative;
@@ -12,12 +12,12 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
 }
 
 h3 {
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
 }
 
 form {
-  width: 497px;
+  width: 460px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -36,30 +36,29 @@ form .inputs-wrap {
 }
 
 form .inputs-wrap input {
-  width: 215px;
-  height: 35px;
+  width: 200px;
+  height: 30px;
   display: inline-block;
   vertical-align: top;
   border-radius: 3px;
   background-color: #FFF;
   color: #888888;
-  text-indent: 15px;
-  font-size: 18px;
-  font-family: "JournalSansRegular";
+  text-indent: 10px;
+  font-size: 14px;
   border: none;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   box-sizing: border-box;
 }
 
 form button {
-  width: 250px;
-  height: 85px;
+  width: 220px;
+  height: 70px;
   display: inline-block;
-  margin-top: 25px;
+  margin-top: 20px;
   float: right;
   color: #fff;
-  font-size: 30px;
-  font-family: "JournalSansBold";
+  font-size: 24px;
+  font-family: "RobotoLight";
   background-color: #46d301;
   border: none;
   border-radius: 3px;
@@ -81,7 +80,6 @@ header {
 
 header .top-line {
   font-size: 19px;
-  font-family: "JournalSansRegular";
   position: fixed;
   width: 100%;
   min-width: 1280px;
@@ -115,7 +113,7 @@ header .top-line .container .left-wrap {
 
 header .top-line .container .left-wrap a {
   color: #6d6d6d;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
 }
 
 header .top-line .container .contact, header .top-line .container a {
@@ -128,13 +126,13 @@ header .top-line .container .right-wrap {
 
 header .main-title {
   background: url("../img/pattern-1.jpg");
-  height: 170px;
+  height: 130px;
   position: relative;
 }
 
 header .main-title h1 {
-  font-size: 52px;
-  line-height: 170px;
+  font-size: 42px;
+  line-height: 130px;
   text-transform: uppercase;
   margin: 0;
 }
@@ -152,49 +150,54 @@ header .header-bottom {
   background-position: center top;
   box-sizing: border-box;
   min-width: 1280px;
-  padding: 110px 0 380px;
+  padding: 90px 0 300px;
+}
+
+header .header-bottom img {
+  width: 37px;
 }
 
 header h2 {
-  font-size: 72px;
+  font-size: 58px;
   margin: 0 0 30px;
 }
 
 header .price {
-  font-size: 48px;
-  font-family: "JournalSansRegular";
-  margin: 35px 0;
+  font-size: 40px;
+  margin: 30px 0;
+  font-family: "RobotoLight";
 }
 
 #advantages {
-  width: 1270px;
-  margin: -150px auto 0;
+  width: 996px;
+  margin: -120px auto 0;
   position: relative;
+  overflow: hidden;
 }
 
 #advantages h3 {
   color: #292929;
-  height: 150px;
+  height: 120px;
   background-color: #FFF;
   margin: 0;
-  line-height: 150px;
+  line-height: 120px;
 }
 
 #advantages .red-arrov {
   position: absolute;
-  top: 135px;
+  top: 105px;
   right: 60px;
 }
 
 #advantages .gray-arrov {
   position: absolute;
-  top: 488px;
+  top: 388px;
   left: 35px;
 }
 
 #advantages .advantages-wrap {
-  width: 424px;
-  height: 340px;
+  width: 332px;
+  height: 269px;
   display: inline-block;
   vertical-align: top;
   margin: 0 -3px;
@@ -205,14 +208,14 @@ header .price {
 #advantages .advantages-wrap .adventage {
   width: 100%;
   height: 50%;
-  font-size: 30px;
-  font-family: "JournalSansBold";
+  font-size: 24px;
+  font-family: "RobotoLight";
   display: inline-block;
   vertical-align: top;
 }
 
 #advantages .advantages-wrap .adventage h4 {
-  line-height: 170px;
+  line-height: 140px;
   margin: 0;
   text-transform: uppercase;
 }
@@ -224,7 +227,7 @@ header .price {
   width: 100%;
   height: 100%;
   position: absolute;
-  padding: 80px 60px;
+  padding: 60px 40px;
   text-align: left;
   box-sizing: border-box;
   -webkit-transition: all 0.4s;
@@ -232,15 +235,14 @@ header .price {
 }
 
 #advantages .advantages-wrap .adventage .descr h4 {
-  font-size: 25px;
-  line-height: 24px;
-  margin: 0 0 35px;
-  font-family: "JournalSansBold";
+  font-size: 21px;
+  line-height: 18px;
+  margin: 0 0 30px;
+  font-family: "RobotoLight";
 }
 
 #advantages .advantages-wrap .adventage .descr p {
-  font-size: 23px;
-  font-family: "JournalSansRegular";
+  font-size: 18px;
 }
 
 #advantages .advantages-wrap .adventage .descr-top {
@@ -284,14 +286,14 @@ header .price {
 
 #fishes {
   background: url("../img/pattern-2.jpg");
-  padding: 40px 0 70px;
+  padding: 30px 0 70px;
   position: relative;
   overflow: visible;
 }
 
 #fishes .bx-wrapper {
   margin: 0 auto;
-  width: 1270px;
+  width: 1000px;
   box-shadow: none;
   border: none;
   background: transparent;
@@ -299,7 +301,7 @@ header .price {
 
 #fishes .bx-viewport {
   overflow: visible;
-  height: 360px !important;
+  height: 290px !important;
 }
 
 #fishes .bx-wrapper .bx-pager, #fishes .bx-wrapper .bx-controls-auto {
@@ -308,6 +310,7 @@ header .price {
 
 #fishes .bx-wrapper .bx-pager {
   background: url("../img/diamonds.png") no-repeat center;
+  background-size: 50%;
 }
 
 #fishes .bx-wrapper .bx-pager {
@@ -315,26 +318,26 @@ header .price {
 }
 
 #fishes .bxslider li h4 {
-  font-size: 48px;
-  font-family: "JournalSansBold";
+  font-size: 40px;
+  font-family: "RobotoLight";
   text-transform: uppercase;
-  margin: 0 0 50px;
+  margin: 0 0 35px;
 }
 
 #fishes .bxslider li p {
   background-color: #f8f8f8;
-  padding: 35px;
+  padding: 30px;
   margin: 0;
   color: #000;
-  font-family: "PTSansItalic";
+  font-size: 19px;
 }
 
 #fishes .bxslider li .border {
   width: 100%;
-  height: 10px;
+  height: 8px;
   background-color: #f8f8f8;
-  border-bottom: 10px solid #c6c6c6;
-  margin-top: 10px;
+  border-bottom: 8px solid #c6c6c6;
+  margin-top: 8px;
   position: relative;
 }
 
@@ -344,55 +347,55 @@ header .price {
 }
 
 #fishes .bxslider li:first-child img {
-  left: 150px;
+  left: 125px;
 }
 
 #fishes .bxslider li:nth-child(2) img {
-  left: 460px;
+  left: 365px;
 }
 
 #fishes .bxslider li:nth-child(3) img {
-  right: 470px;
+  right: 365px;
 }
 
 #fishes .bxslider li:nth-child(4) img {
-  right: 160px;
+  right: 125px;
 }
 
 #fishes .bx-pager-item {
-  margin: 0 85px;
+  margin: 0 65px;
 }
 
 #fishes .bx-pager-item .bx-pager-link {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   background-image: url("../img/fishes-sprite.png");
   background-size: 620%;
-  background-position: -15px;
+  background-position: -11px;
 }
 
 #fishes .bx-pager-item:first-child .bx-pager-link {
-  background-position: -55px -15px;
+  background-position: -42px -11px;
 }
 
 #fishes .bx-pager-item:nth-child(2) .bx-pager-link {
-  background-position: -242px -15px;
+  background-position: -185px -11px;
 }
 
 #fishes .bx-pager-item:nth-child(3) .bx-pager-link {
-  background-position: -435px -15px;
+  background-position: -480px -11px;
 }
 
 #fishes .bx-pager-item:nth-child(4) .bx-pager-link {
-  background-position: -625px -15px;
+  background-position: -660px -11px;
 }
 
 #fishes .bx-wrapper .bx-pager.bx-default-pager a:hover,
 #fishes .bx-wrapper .bx-pager.bx-default-pager a.active,
 #fishes .bx-wrapper .bx-pager.bx-default-pager a:focus {
   background-color: transparent;
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   background-image: url("../img/fishes-sprite.png");
   background-size: 620%;
   background-position: -185px;
@@ -401,25 +404,25 @@ header .price {
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:first-child .bx-pager-link:hover,
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:first-child .bx-pager-link.active,
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:first-child .bx-pager-link:focus {
-  background-position: -55px -185px;
+  background-position: -42px -140px;
 }
 
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(2) .bx-pager-link:hover,
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(2) .bx-pager-link.active,
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(2) .bx-pager-link:focus {
-  background-position: -242px -185px;
+  background-position: -185px -140px;
 }
 
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(3) .bx-pager-link:hover,
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(3) .bx-pager-link.active,
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(3) .bx-pager-link:focus {
-  background-position: -435px -185px;
+  background-position: -480px -140px;
 }
 
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(4) .bx-pager-link:hover,
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(4) .bx-pager-link.active,
 #fishes .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(4) .bx-pager-link:focus {
-  background-position: -625px -185px;
+  background-position: -660px -140px;
 }
 
 #fishes .bx-wrapper .bx-pager.bx-default-pager a {
@@ -428,7 +431,7 @@ header .price {
 
 #fishes .bx-controls {
   position: relative;
-  margin-top: -65px;
+  margin-top: -45px;
 }
 
 #fishes .bx-controls-direction a {
@@ -458,6 +461,10 @@ header .price {
   background-position: -60px 0;
 }
 
+#fishes .bx-wrapper .bx-pager, #fishes .bx-wrapper .bx-controls-auto {
+  bottom: -20px !important;
+}
+
 #fishes .arrov-down {
   position: absolute;
   bottom: -30px;
@@ -467,7 +474,7 @@ header .price {
 }
 
 #caviars {
-  width: 1100px;
+  width: 1030px;
   margin: 0 auto;
   position: relative;
   padding-bottom: 100px;
@@ -475,8 +482,8 @@ header .price {
 
 #caviars h3 {
   color: #acacac;
-  font-size: 124px;
-  font-family: "JournalSansBold";
+  font-size: 100px;
+  font-family: "RobotoLight";
   margin-bottom: 50px;
 }
 
@@ -489,8 +496,8 @@ header .price {
   display: none;
   overflow: hidden;
   margin-bottom: 30px;
-  left: 570px;
-  top: 350px;
+  left: 500px;
+  top: 320px;
 }
 
 #caviars .wrap form input {
@@ -499,11 +506,11 @@ header .price {
 
 #caviars .obtain {
   color: #acacac;
-  font-size: 48px;
-  font-family: "PTSansItalic";
-  width: 750px;
+  font-size: 40px;
+  width: 630px;
   margin: 0 auto;
   background: url("../img/open-quotes.png") no-repeat 0 25%, url("../img/close-quotes.png") no-repeat 100% 25%;
+  background-size: 15%;
 }
 
 #caviars .kind {
@@ -522,24 +529,24 @@ header .price {
 }
 
 #caviars .kind .left-title {
-  left: -40px;
+  left: 40px;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 #caviars .kind .right-title {
-  right: -40px;
+  right: 40px;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
 #caviars .kind .plus {
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   color: #e8e8e8;
   border: 2px solid #e8e8e8;
-  font-size: 65px;
-  line-height: 60px;
+  font-size: 55px;
+  line-height: 45px;
   display: inline-block;
   vertical-align: top;
   text-align: center;
@@ -547,9 +554,9 @@ header .price {
 }
 
 #caviars .kind h4 {
-  font-size: 30px;
-  line-height: 36px;
-  font-family: "JournalSansBold";
+  font-size: 25px;
+  line-height: 28px;
+  font-family: "RobotoLight";
   color: #000;
   margin: 0;
   text-transform: uppercase;
@@ -584,50 +591,49 @@ header .price {
 }
 
 #caviars .weighted-info .right-wrap h4, #caviars .jars-info .right-wrap h4 {
-  font-size: 40px;
-  font-family: "JournalSansBold";
+  font-size: 33px;
+  font-family: "RobotoLight";
   text-transform: uppercase;
-  margin: 30px 0 30px;
+  margin: 20px 0 20px;
 }
 
 #caviars .weighted-info .right-wrap .descr, #caviars .jars-info .right-wrap .descr {
-  padding-left: 30px;
+  padding-left: 25px;
   border-left: 5px solid #dddddd;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 #caviars .weighted-info .right-wrap .descr p, #caviars .jars-info .right-wrap .descr p {
-  font-family: "PTSansItalic";
   font-size: 18px;
 }
 
 #caviars .weighted-info .right-wrap .descr span, #caviars .jars-info .right-wrap .descr span {
   color: #8c8c8c;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
   font-size: 18px;
   line-height: 18px;
   margin-right: 10px;
 }
 
 #caviars .weighted-info .right-wrap .to-other, #caviars .jars-info .right-wrap .to-other {
-  font-size: 36px;
+  font-size: 28px;
   cursor: pointer;
-  margin-top: 230px;
+  margin-top: 200px;
 }
 
 #caviars .weighted-info .right-wrap .to-other .plus, #caviars .jars-info .right-wrap .to-other .plus {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border: 2px solid #8c8c8c;
   display: inline-block;
   text-align: center;
   color: #8c8c8c;
-  font-size: 45px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 35px;
 }
 
 #caviars .weighted-info .right-wrap .to-other span, #caviars .jars-info .right-wrap .to-other span {
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
   color: #686868;
   display: inline-block;
   vertical-align: middle;
@@ -644,18 +650,18 @@ header .price {
 }
 
 #place-of-catch .container {
-  width: 1270px;
+  width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 #place-of-catch .map {
-  width: 620px;
-  height: 580px;
+  width: 550px;
+  height: 520px;
   background-color: #FFF;
   float: left;
-  margin-right: 50px;
-  padding: 50px 0;
+  margin-right: 40px;
+  padding: 40px 0;
   box-sizing: border-box;
 }
 
@@ -666,31 +672,30 @@ header .price {
 #place-of-catch .place-info {
   float: left;
   text-align: left;
-  width: 460px;
+  width: 400px;
 }
 
 #place-of-catch .place-info h3 {
   color: #4e4d4d;
   margin-top: 0;
-  margin-bottom: 70px;
+  margin-bottom: 55px;
 }
 
 #place-of-catch .place-info h4 {
   color: #1c2423;
-  font-size: 45px;
-  margin: 30px 0;
+  font-size: 37px;
+  margin: 25px 0;
   text-decoration: underline;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
 }
 
 #place-of-catch .place-info p {
-  font-size: 21px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 21px;
   color: #1c2423;
-  margin: 0 0 50px;
-  padding-left: 30px;
+  margin: 0 0 40px;
+  padding-left: 25px;
   border-left: 5px solid #dddddd;
-  font-family: "JournalSansRegular";
 }
 
 #place-of-catch .place-info .place {
@@ -698,23 +703,23 @@ header .price {
 }
 
 #place-of-catch .place-info .place .plus {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border: 2px solid #8c8c8c;
   display: inline-block;
   text-align: center;
   color: #8c8c8c;
-  font-size: 45px;
-  line-height: 40px;
+  font-size: 38px;
+  line-height: 35px;
 }
 
 #place-of-catch .place-info .place span {
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
   color: #686868;
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 12px 10px;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 #place-of-catch .place-info .place span:hover {
@@ -730,31 +735,35 @@ header .price {
 }
 
 #production-scheme {
-  width: 1270px;
-  margin: -145px auto 0;
+  width: 1000px;
+  margin: -120px auto 0;
   overflow: hidden;
 }
 
 #production-scheme h3 {
-  height: 145px;
+  height: 120px;
   color: #fff;
   background-color: #525252;
   margin: 0;
-  line-height: 145px;
+  line-height: 120px;
 }
 
 #production-scheme .schemes-wrap {
   width: 50%;
   float: left;
   vertical-align: top;
-  height: 748px;
+  height: 596px;
   overflow: hidden;
 }
 
 #production-scheme .schemes-wrap .stage {
-  height: 250px;
+  height: 200px;
   overflow: hidden;
   position: relative;
+}
+
+#production-scheme .schemes-wrap .stage img {
+  width: 375px;
 }
 
 #production-scheme .schemes-wrap .stage .descr {
@@ -767,26 +776,25 @@ header .price {
 }
 
 #production-scheme .schemes-wrap .stage .descr h4 {
-  font-size: 24px;
+  font-size: 20px;
   transition: all 0.5s;
 }
 
 #production-scheme .schemes-wrap .stage .descr h4 {
   text-transform: uppercase;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
 }
 
 #production-scheme .schemes-wrap .stage .descr p {
   opacity: 0;
   font-size: 18px;
-  font-family: "JournalSansRegular";
 }
 
 #production-scheme .schemes-wrap .stage .descr .plus {
-  width: 25px;
-  height: 25px;
-  font-size: 35px;
-  line-height: 25px;
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+  line-height: 20px;
   opacity: 1;
   display: inline-block;
 }
@@ -794,12 +802,12 @@ header .price {
 #production-scheme .schemes-wrap .stage:hover .descr {
   background-color: #ec361e;
   color: #fff;
-  width: 280px;
-  height: 250px;
+  width: 240px;
+  height: 200px;
 }
 
 #production-scheme .schemes-wrap .stage:hover h4 {
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
 }
 
@@ -820,11 +828,11 @@ header .price {
   top: 0;
   height: 100%;
   background-color: #292929;
-  width: 140px;
+  width: 125px;
 }
 
 #production-scheme .schemes-wrap .stage-1 .descr h4 {
-  margin-top: 70px;
+  margin-top: 55px;
 }
 
 #production-scheme .schemes-wrap .stage-1 .descr .plus {
@@ -841,11 +849,11 @@ header .price {
   top: 0;
   height: 100%;
   background-color: #292929;
-  width: 140px;
+  width: 125px;
 }
 
 #production-scheme .schemes-wrap .stage-2 .descr h4 {
-  margin-top: 70px;
+  margin-top: 55px;
 }
 
 #production-scheme .schemes-wrap .stage-2 .descr .plus {
@@ -863,17 +871,17 @@ header .price {
   height: 100%;
   background-color: #e8e8e8;
   color: #767676;
-  width: 140px;
+  width: 125px;
   right: 0;
 }
 
 #production-scheme .schemes-wrap .stage-3 h4 {
-  margin-top: 70px;
+  margin-top: 55px;
   color: #767676;
   transition: all 0.5s;
 }
 
-#production-scheme .schemes-wrap .stage-3 h4 .plus {
+#production-scheme .schemes-wrap .stage-3 .plus {
   color: #767676;
   border: 2px solid #767676;
   transition: all 0.5s;
@@ -881,13 +889,13 @@ header .price {
 
 #production-scheme .schemes-wrap .stage-4 .descr {
   top: 0;
-  height: 140px;
+  height: 110px;
   background-color: #292929;
-  width: 250px;
+  width: 200px;
 }
 
 #production-scheme .schemes-wrap .stage-4 .descr h4 {
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 #production-scheme .schemes-wrap .stage-4 .descr .plus {
@@ -897,7 +905,7 @@ header .price {
 }
 
 #production-scheme .schemes-wrap .stage-4:hover .descr h4 {
-  margin-top: 70px;
+  margin-top: 55px;
 }
 
 #production-scheme .schemes-wrap .stage-4 img {
@@ -905,31 +913,31 @@ header .price {
 }
 
 #production-scheme .schemes-wrap .stage-5 {
-  height: 500px;
+  height: 396px;
 }
 
 #production-scheme .schemes-wrap .stage-5 .descr {
   bottom: 0;
-  height: 140px;
+  height: 110px;
   background-color: #e8e8e8;
   color: #767676;
-  width: 250px;
+  width: 200px;
   right: 0;
 }
 
 #production-scheme .schemes-wrap .stage-5 h4 {
-  margin-top: 35px;
+  margin-top: 15px;
   transition: all 0.5s;
   color: #767676;
 }
 
-#production-scheme .schemes-wrap .stage-5 h4 .plus {
+#production-scheme .schemes-wrap .stage-5 .plus {
   color: #767676;
   border: 2px solid #767676;
 }
 
 #production-scheme .schemes-wrap .stage-5:hover .descr h4 {
-  margin-top: 70px;
+  margin-top: 55px;
 }
 
 #production-scheme .schemes-wrap .stage-5 img {
@@ -938,12 +946,12 @@ header .price {
 
 #certificates .line-bg {
   background: url("../img/pattern-2.jpg");
-  height: 475px;
+  height: 400px;
 }
 
 #certificates .container {
-  width: 1270px;
-  margin: -419px auto 0;
+  width: 1100px;
+  margin: -370px auto 0;
 }
 
 #certificates .container h3 {
@@ -952,8 +960,9 @@ header .price {
 
 #certificates #counter {
   margin-bottom: 23px;
+  margin-right: 60px;
   display: block;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
 }
 
 #certificates #bx-pager-certificates {
@@ -967,11 +976,11 @@ header .price {
 }
 
 #certificates .bxslider-certificates li {
-  width: 550px !important;
+  width: 500px !important;
 }
 
 #certificates .bx-wrapper {
-  width: 550px;
+  width: 500px;
   display: inline-block;
   box-shadow: none;
   margin-top: -45px;
@@ -980,13 +989,13 @@ header .price {
 #certificates #bx-pager-certificates a {
   height: 200px;
   display: inline-block;
-  margin-right: 30px;
-  border-top: 5px solid #fff;
+  margin-right: 20px;
+  border-top: 4px solid #fff;
   position: relative;
 }
 
 #certificates #bx-pager-certificates a img {
-  width: 140px;
+  width: 120px;
   height: auto;
   box-sizing: border-box;
   position: relative;
@@ -1021,7 +1030,7 @@ header .price {
 }
 
 #certificates .bx-controls-direction .bx-prev {
-  left: -125px;
+  left: -122px;
   top: 10px;
   background-position: 0 0;
 }
@@ -1031,7 +1040,7 @@ header .price {
 }
 
 #certificates .bx-controls-direction .bx-next {
-  right: 580px;
+  right: 525px;
   top: 10px;
   background-position: -20px 0;
 }
@@ -1055,7 +1064,7 @@ header .price {
 
 #certificates .wrapper .info h4 {
   font-size: 30px;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
   text-decoration: underline;
   color: #000;
   line-height: 35px;
@@ -1070,29 +1079,28 @@ header .price {
   color: #000;
   font-size: 18px;
   margin-bottom: 50px;
-  font-family: "JournalSansRegular";
   margin-bottom: 30px;
 }
 
 #certificates .wrapper .info .descr span {
   color: #8c8c8c;
   font-size: 18px;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
 }
 
 #scheme-works {
   background: url("../img/scheme-works-bg.jpg");
   background-position: center;
   background-size: cover;
-  padding: 40px 0 90px;
+  padding: 30px 0 90px;
 }
 
 #scheme-works h3 {
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
 
 #scheme-works .container {
-  width: 1270px;
+  width: 1150px;
   padding-right: 54px;
   box-sizing: border-box;
   margin: 0 auto 70px;
@@ -1100,7 +1108,7 @@ header .price {
 }
 
 #scheme-works .container .number-col {
-  min-width: 200px;
+  min-width: 170px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
@@ -1109,8 +1117,8 @@ header .price {
 
 #scheme-works .container .number-col .stage-wrap {
   position: relative;
-  width: 200px;
-  height: 170px;
+  width: 170px;
+  height: 150px;
   background-color: #ec361e;
   color: #fff;
   display: inline-block;
@@ -1124,8 +1132,8 @@ header .price {
 
 #scheme-works .container .number-col .stage-wrap h4 {
   text-align: center;
-  margin-top: 70px;
-  font-family: "JournalSansBold";
+  margin-top: 50px;
+  font-family: "RobotoLight";
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -o-transition: all 0.6s;
@@ -1151,8 +1159,7 @@ header .price {
 #scheme-works .container .number-col .stage-wrap .number span {
   display: table-cell;
   vertical-align: middle;
-  font-size: 85px;
-  font-family: "JournalSansRegular";
+  font-size: 75px;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -o-transition: all 0.6s;
@@ -1160,30 +1167,29 @@ header .price {
 }
 
 #scheme-works .container .number-col .stage-wrap:hover {
-  width: 550px;
+  width: 500px;
 }
 
 #scheme-works .container .number-col .stage-wrap:hover .number {
-  width: 70px;
-  height: 80px;
+  width: 60px;
+  height: 70px;
   background-color: #FFF;
   top: -35px;
   left: 30px;
 }
 
 #scheme-works .container .number-col .stage-wrap:hover .number span {
-  font-size: 35px;
+  font-size: 30px;
   color: #000;
-  font-family: "JournalSansRegular";
 }
 
 #scheme-works .container .number-col .stage-wrap:hover h4 {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 #scheme-works .container .number-col .stage-1 img, #scheme-works .container .number-col .stage-3 img {
   position: absolute;
-  top: 43%;
+  top: 40%;
   right: -19px;
   z-index: 1000;
   -webkit-transition: all 0.2s;
@@ -1209,7 +1215,7 @@ header .price {
   border-left: 20px solid #fff;
   border-bottom: 20px solid transparent;
   position: absolute;
-  top: 70px;
+  top: 57px;
   left: -6px;
   opacity: 0;
   -webkit-transition: all 0.4s;
@@ -1229,7 +1235,7 @@ header .price {
 
 #scheme-works .container .number-col .stage-4 img {
   position: absolute;
-  right: 80px;
+  right: 70px;
   bottom: -19px;
   z-index: 1000;
 }
@@ -1246,7 +1252,7 @@ header .price {
   border-left: 20px solid #fff;
   border-bottom: 20px solid transparent;
   position: absolute;
-  top: 70px;
+  top: 57px;
   left: -6px;
   opacity: 0;
   -webkit-transition: all 0.4s;
@@ -1268,7 +1274,7 @@ header .price {
   border-top: 20px solid #fff;
   position: absolute;
   top: -6px;
-  left: 82px;
+  left: 64px;
   opacity: 0;
   z-index: 1000;
   -webkit-transition: all 0.4s;
@@ -1287,7 +1293,7 @@ header .price {
 }
 
 #scheme-works .container .number-col .stage-3, #scheme-works .container .number-col .stage-4 {
-  margin: 170px 0 2px;
+  margin: 150px 0 2px;
 }
 
 #scheme-works .container .number-col .last-stage {
@@ -1295,35 +1301,35 @@ header .price {
 }
 
 #with-whom-work {
-  padding: 40px 0 80px;
+  padding: 30px 0 60px;
 }
 
 #with-whom-work h3 {
   color: #4e4d4d;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 #with-whom-work .clients-wrap {
-  width: 1270px;
-  height: 300px;
+  width: 1100px;
+  height: 260px;
   margin: 0 auto;
   padding-top: 15px;
   box-sizing: border-box;
 }
 
 #with-whom-work .clients-wrap .client {
-  height: 270px;
+  height: 240px;
   background-color: #f8f8f8;
   color: #a2a2a2;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 25px;
+  line-height: 30px;
   display: inline-block;
   vertical-align: top;
-  padding: 15px 0;
+  padding: 13px 0;
   width: 25%;
   margin: 0 -4px;
   text-align: center;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
   box-sizing: border-box;
   -webkit-transition: all 0.15s;
   -moz-transition: all 0.15s;
@@ -1332,7 +1338,7 @@ header .price {
 }
 
 #with-whom-work .clients-wrap .client .info-wrap {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-width: 0 2px 0 2px;
   height: 100%;
 }
@@ -1342,7 +1348,7 @@ header .price {
 }
 
 #with-whom-work .clients-wrap .client p {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 #with-whom-work .clients-wrap .client:first-child {
@@ -1354,8 +1360,9 @@ header .price {
 }
 
 #with-whom-work .clients-wrap .client .icon {
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
+  margin-top: 20px;
   display: inline-block;
   background-image: url("../img/with-whom-icons.png");
   background-repeat: no-repeat;
@@ -1367,15 +1374,15 @@ header .price {
 }
 
 #with-whom-work .clients-wrap .client .icon-2 {
-  background-position: -142px -15px;
+  background-position: -115px -15px;
 }
 
 #with-whom-work .clients-wrap .client .icon-3 {
-  background-position: -283px -15px;
+  background-position: -230px -15px;
 }
 
 #with-whom-work .clients-wrap .client .icon-4 {
-  background-position: -442px -15px;
+  background-position: -360px -15px;
 }
 
 #with-whom-work .clients-wrap .client:hover {
@@ -1384,24 +1391,24 @@ header .price {
 }
 
 #with-whom-work .clients-wrap .client:hover .icon-1 {
-  background-position: -20px -113px;
+  background-position: -20px -94px;
 }
 
 #with-whom-work .clients-wrap .client:hover .icon-2 {
-  background-position: -142px -113px;
+  background-position: -115px -94px;
 }
 
 #with-whom-work .clients-wrap .client:hover .icon-3 {
-  background-position: -283px -113px;
+  background-position: -230px -94px;
 }
 
 #with-whom-work .clients-wrap .client:hover .icon-4 {
-  background-position: -442px -113px;
+  background-position: -360px -94px;
 }
 
 #place-of-unloading {
   background: url("../img/pattern-1.jpg");
-  padding: 70px 0;
+  padding: 60px 0;
 }
 
 #place-of-unloading .map {
@@ -1411,7 +1418,7 @@ header .price {
 }
 
 #place-of-unloading .map .map-img {
-  width: 1270px;
+  width: 1100px;
   height: auto;
 }
 
@@ -1427,7 +1434,7 @@ header .price {
 
 #place-of-unloading .map .city p {
   margin: 0;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
 }
 
 #place-of-unloading .map .city img {
@@ -1732,14 +1739,14 @@ header .price {
 
 #instagram {
   color: #919191;
-  font-size: 30px;
-  font-family: "JournalSansBold";
+  font-size: 27px;
+  font-family: "RobotoLight";
   padding-bottom: 70px;
 }
 
 #instagram .img-line {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: url("../img/instagram-bg.jpg") repeat-x center;
 }
 
@@ -1748,28 +1755,28 @@ header .price {
 }
 
 #instagram .container {
-  width: 1270px;
+  width: 1050px;
   margin: 0 auto;
   background-color: #FFF;
   margin-top: -100px;
 }
 
 #instagram .container h3 {
-  margin: 0 0 40px;
+  margin: 0 0 30px;
   height: 100px;
   line-height: 100px;
 }
 
 #instagram .container a {
-  width: 270px;
-  height: 70px;
+  width: 250px;
+  height: 60px;
   color: #f5f5f5;
   background-color: #383838;
-  line-height: 70px;
+  line-height: 60px;
   border-radius: 3px;
   display: inline-block;
   text-decoration: none;
-  margin: 0 50px;
+  margin: 0 40px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1795,7 +1802,6 @@ header .price {
 footer {
   font-size: 22px;
   line-height: 35px;
-  font-family: "JournalSansRegular";
   text-align: left;
 }
 
@@ -1878,13 +1884,13 @@ footer .container {
 
 footer .container .up-arrov {
   position: absolute;
-  top: -80px;
+  top: -70px;
   right: 0;
 }
 
 footer .container .logo {
   font-size: 48px;
-  font-family: "JournalSansBold";
+  font-family: "RobotoLight";
   margin: 35px 0 80px;
 }
 

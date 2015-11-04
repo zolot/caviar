@@ -1,34 +1,13 @@
 @font-face {
-  font-family: "PTSansRegular";
+  font-family: "RobotoLight";
   font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"), url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+  font-weight: 300;
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "JournalSansRegular";
+  font-family: "RobotoThin";
   font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/JournalSansRegular/JournalSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/JournalSansRegular/JournalSansRegular.woff") format("woff"), url("../fonts/JournalSansRegular/JournalSansRegular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "PTSansBold";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSansBold/PTSansBold.woff") format("woff"), url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "PTSansItalic";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/PTSansItalic/PTSansItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSansItalic/PTSansItalic.woff") format("woff"), url("../fonts/PTSansItalic/PTSansItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "JournalSansBold";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/JournalSansBold/JournalSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/JournalSansBold/JournalSansBold.woff") format("woff"), url("../fonts/JournalSansBold/JournalSansBold.ttf") format("truetype");
+  font-weight: 200;
+  src: url("../fonts/RobotoThin/RobotoThin.woff") format("woff"), url("../fonts/RobotoThin/RobotoThin.ttf") format("truetype");
 }
